@@ -1,7 +1,7 @@
 {
   "name": "awesome-react-modal",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.2",
+  "main": "Modal.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
@@ -9,6 +9,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "styled-components": "^5.2.3",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
