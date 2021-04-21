@@ -1,6 +1,6 @@
 {
   "name": "awesome-react-modal",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "Modal.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
