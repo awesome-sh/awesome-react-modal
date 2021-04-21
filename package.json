@@ -1,8 +1,8 @@
 {
   "name": "awesome-react-modal",
-  "version": "0.0.3",
-  "main": "Modal.js",
-  "dependencies": {
+  "version": "0.0.8",
+  "main": "dist/Modal.js",
+  "peerDependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
@@ -16,7 +16,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "publish:npm": "rm -rf dist && mkdir dist && babel src/lib -d dist --copy-files"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +41,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/preset-react": "^7.13.13"
   }
 }

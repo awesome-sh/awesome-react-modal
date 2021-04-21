@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Modal from './Modal'
+import Modal from './lib/Modal'
 import styled from 'styled-components'
 
 import Bg from './assets/bg.jpg'
